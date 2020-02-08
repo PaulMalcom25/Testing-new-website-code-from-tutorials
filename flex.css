@@ -1,0 +1,9 @@
+.container{
+    display: inline-flex;
+}
+.container{
+    flex-direction: row-reverse;
+}
+.container{
+    flex-wrap: wrap;
+}
