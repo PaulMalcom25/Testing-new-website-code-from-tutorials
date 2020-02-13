@@ -7,6 +7,9 @@ table{
 html{
     font-family: 'Courier New', Courier, monospace;
 }
+body {
+    background: gold url(hand.jpg) no-repeat bottom left;
+}
 
 li{
     color: crimson;
@@ -51,9 +54,6 @@ p:last-child{
  .fati p{
      font: italic bold 12px/2 verdana;
  }
- body{
-     background: green indexs.jpeg no-repeat top right;
- }
  input, textarea, b{
      display: block;
  }
@@ -87,10 +87,8 @@ blockquote:after{
     background: rgb(189, 70, 70);
     color: blue;
 }
-.fati:before{
-    content: index.jpeg;
-}
-
+.fati:after{
+    content: url(index.jpeg);
 }
 blockquote{
     float: left;
